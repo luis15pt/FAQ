@@ -26,7 +26,6 @@ Documentation table of contents
   billing-history.rst
   networks.rst
   cloud-security-groups.rst
-  cloud-init.rst
   routers.rst
   zones.rst
   images.rst

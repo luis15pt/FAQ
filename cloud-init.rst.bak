@@ -1,12 +1,12 @@
 .. _change-string:
 
 ==============================
-Cloud / Init
+How to customize Fleio strings
 ==============================
 
 .. index:: text, translations, change, language
 
- How to install packages on initialization
+Cloud-init data goes here
 
 .. code-block:: python
 
