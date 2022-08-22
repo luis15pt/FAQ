@@ -58,6 +58,13 @@ User Area
     - **My Profile**: *Change your name, last name, email address, password, theme.*
     - **Log Out**: *Log-out from your account.*
 
+Domains
+=======
+
+    - **My domains**: *Here you will see/manage your domains*
+    - **Domain contacts**: *Here you will manage your domain contacts*
+    - **Register domain**: *Here you will register domains*
+    - **Transfer domain**: *Here you will manage the domain transfers*
 
 Tickets
 =======
@@ -68,8 +75,3 @@ Utilities
 =========
 
     - **Operations**: *Here you will have a summary of your operations like CREATE INSTANCE, DELETE INSTANCE etc*
-
-HyperStack
-=========
-
-    - **FAQ**: *Here you will be forwarded to this document*

@@ -28,8 +28,10 @@ Documentation table of contents
   cloud-security-groups.rst
   cloud-init.rst
   routers.rst
+  zones.rst
   images.rst
   services.rst
   invoicing.rst
+  order-services.rst
   billing-auto-invoicing.rst
   faq

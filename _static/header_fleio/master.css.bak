@@ -65,7 +65,7 @@
   top: 0;
   right: 0;
   z-index: 1000;
-  background-color: #476190;
+  background-color: #1ACAF4;
   height: 57px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .header_fleio .version_warning a {
-  color: #476190;
+  color: #1ACAF4;
 }
 
 .version_warning_header {
@@ -92,14 +92,14 @@
 .header_fleio .col-sm-11 {
   width: 91.66666667%;
   float: left;
-  background-color: #476190;
+  background-color: #1ACAF4;
 }
 
 .header_fleio .logo {
   float: left;
   margin: 11px 0 0 35px;
   display: block;
-  background: url('logo.png') 0 center no-repeat;
+  background: url('logo_HS_beta_1.svg') 0 center no-repeat;
   background-size: 120px 29px;
   width: 120px;
   height: 29px;
@@ -129,7 +129,7 @@
   font-size: 20px;
   margin: 0 7px 0 3px;
   font-family: 'ProximaNova-Regular';
-  border-bottom: 2px solid #476190;
+  border-bottom: 2px solid #1ACAF4;
 }
 
 .header_fleio .menu > ul > .active > a, .header_fleio .menu > ul > .active > a:hover, .header_fleio .menu > ul > .active > a:focus, .header_fleio .menu > ul > li > a:hover {
@@ -298,7 +298,7 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 30px;
-  background-color: #476190;
+  background-color: #1ACAF4;
   color: #fff;
   font-family: 'ProximaNova-Regular';
   letter-spacing: 1px;
@@ -597,7 +597,7 @@ div#mc_subscribe_success p {
   }
 
   .header_fleio.menu-opened {
-    background-color: #476190;
+    background-color: #1ACAF4;
     bottom: 0;
     padding-right: 0
   }
@@ -761,7 +761,7 @@ span#current-version {
   display: block;
   padding: 6px;
   margin: 0;
-  border: 1px #476190 solid;
+  border: 1px #1ACAF4 solid;
   border-radius: 4px;
   background-color: #deeaff;
 }
@@ -792,7 +792,7 @@ nav.versions-menu ul li ul li {
 
 nav.versions-menu ul li ul li:hover {
   background-color: #ffffff;
-  border: 1px #476190 solid;
+  border: 1px #1ACAF4 solid;
   border-radius: 4px;
 }
 
