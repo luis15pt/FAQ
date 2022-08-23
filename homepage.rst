@@ -67,6 +67,6 @@ Utilities
     - **Operations**: *Here you will have a summary of your operations like CREATE INSTANCE, DELETE INSTANCE etc*
 
 HyperStack
-=========
+==========
 
     - **FAQ**: *Here you will be forwarded to this document*

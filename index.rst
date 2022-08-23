@@ -1,6 +1,6 @@
-==============================
+======================================
 Welcome to HyperStack Documentation
-==============================
+======================================
 
 HyperStack Intro
 
@@ -14,7 +14,7 @@ Documentation table of contents
 ================================
 
 .. toctree::
-   :maxdepth: 0
+
 
 
   homepage.rst
