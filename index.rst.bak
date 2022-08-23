@@ -62,11 +62,9 @@ For example, you may store data in object storage in one of two ways: with a sin
 
 Under the Shared Responsibility Model, our obligations are to implement the services such that you should be able to reasonably rely on the stated service levels. But the assessment of risks for your systems and data can only be made by you with an understanding of your risk profile and business continuity needs.
 
-The full detail of both our and your obligations are in the Terms and Conditions, found here: https://catalystcloud.nz/about/terms-and-conditions/
-
+The full detail of both our and your obligations are in the Terms and Conditions
 
 Now that you are aware of how the shared responsibility model works on the HyperStack there are some terms and general knowledge you should be aware of before we start with an example of how to create your first instance.
-
 
 
 .. toctree::

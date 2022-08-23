@@ -32,21 +32,24 @@ HyperStack is responsible for operating and securing:
 * Cloud software
 * Storage resources
 * Operating systems exclusively relating to:
- ** Our Hypervisors
- ** Our Control plane
- ** Our Management systems
- ** The Operating systems for specific managed services
-*Ensuring isolation of private resources between tenancies, where these have been configured as private
+
+ - Our Hypervisors
+ - Our Control plane
+ - Our Management systems
+ - The Operating systems for specific managed services
+* Ensuring isolation of private resources between tenancies, where these have been configured as private
 
 
 Customers are responsible for configuring, operating and securing:
 
 * Network configuration (such as security groups / firewall rules that control access to the applications and systems they host on HyperStack)
 * Operating systems relating to the images run on your compute resources
- ** This includes any applications running or data stored on your instances.
+
+ - This includes any applications running or data stored on your instances.
 * Data stored on any services on the cloud (block storage, object storage, databases etc.)
 * Authentication to your applications, resources and systems.
- ** This includes managing and maintaining which users have access to your project(s).
+
+ -  This includes managing and maintaining which users have access to your project(s).
 * The Containers you run on the cloud
 * Application software and configuration
 * Any sharing of resources with the Internet or other tenants
@@ -65,6 +68,28 @@ Under the Shared Responsibility Model, our obligations are to implement the serv
 The full detail of both our and your obligations are in the Terms and Conditions
 
 Now that you are aware of how the shared responsibility model works on the HyperStack there are some terms and general knowledge you should be aware of before we start with an example of how to create your first instance.
+
+
+.. toctree::
+
+
+
+  homepage.rst
+  instances.rst
+  networks.rst
+  cloud-routers.rst
+  cloud-security-groups.rst  
+  floating-ips.rst
+  ssh-keys.rst 
+  cloud-api-users.rst
+  cloud-init.rst
+  volumes.rst
+  services.rst 
+  invoicing.rst  
+  billing-history.rst
+  faq
+
+
 
 
 
