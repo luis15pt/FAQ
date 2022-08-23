@@ -66,9 +66,9 @@ box. Ensure you scroll to the bottom to get everything.
 .. image:: _static/images/ssh-with-putty_4.png
    :align: center
 
-Next, log into the cloud dashboard, select **Key Pairs** from left
-hand menu and then **Import Key Pair**. Enter a meaningful name for the key and
-paste in the public key text from the previous step and **Import Key Pair**
+Next, log into the cloud dashboard, select **Add Key** from left
+hand menu and then enter a meaningful name for the key and
+paste in the public key text from the previous step and **Save Key**
 
 .. image:: _static/images/ssh-with-putty_5.png
    :align: center
@@ -118,7 +118,7 @@ the SSH key in PuTTYgen.
   If this is the first time that you have connected to this server you will also
   be asked to accept the servers host key. Say **Yes** to this.
 
-.. image:: _static/images/images/ssh-with-putty_10.png
+.. image:: _static/images/ssh-with-putty_10.png
    :align: center
 
 You should now be logged successfully into your instance.

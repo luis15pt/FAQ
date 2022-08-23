@@ -6,7 +6,7 @@ Behind the scenes, all of the access methods to HyperStack are just accessing th
 
 HyperStack will accept API requests (including those from the Command Line Interface or Automation tools mentioned above) from anywhere on the Internet.
 
-We limit the rate at which you can make API requests, to ensure that the service is accessable to everyone equally. If you make too many requests in a short amount of time, we will send back an HTTP error message indicating you have exceeded the limits. You may need to configure your software using the API to retry in response to this error message.
+We limit the rate at which you can make API requests, to ensure that the service is accessible to everyone equally. If you make too many requests in a short amount of time, we will send back an HTTP error message indicating you have exceeded the limits. You may need to configure your software using the API to retry in response to this error message.
 
 
 To create a new user, access the floating button present in the lower right corner and enter the
