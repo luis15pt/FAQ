@@ -104,9 +104,8 @@ address of the cloud instance you wish to connect to and click Open.
 .. image:: _static/images/ssh-with-putty_8.png
    :align: center
 
-In the terminal session that appears enter the default username for the OS that
-you have deployed. As we have assumed that we are running an Ubuntu instance
-our username will be **ubuntu**.
+In the terminal session that appears enter the default root for the OS that
+you have deployed.
 
 .. image:: _static/images/ssh-with-putty_9.png
    :align: center
