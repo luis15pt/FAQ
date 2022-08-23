@@ -16,7 +16,7 @@ In this page, you can do as follow:
 .. important::
 
    * SSH keys added in Fleio are saved only in the HyperStack database and they are not added in the Openstack keypair
-   * On new instance creation the key is deployed trough cloud init (see :ref:`ssh-key-injection`)
+   * On new instance creation the key is deployed trough cloud init
 
 .. _add-new-ssh-key:
 

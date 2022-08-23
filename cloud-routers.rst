@@ -9,7 +9,6 @@ In this page, you can do as follow:
     * :ref:`sort-routers`
     * :ref:`edit-routers`
     * :ref:`add-interface-routers`
-    * :ref:`remove-interface-routers`
     * :ref:`delete-routers`
 
 .. _create-new-routers:

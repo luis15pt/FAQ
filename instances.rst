@@ -10,7 +10,6 @@ In this page, you can do as follow:
     * :ref:`filter-instances`
     * :ref:`shutdown-reboot-instance`
     * :ref:`login-into-console`
-    * :ref:`rescue-instance`
     * :ref:`rename-instance`
     * :ref:`resize-instance`
     * :ref:`change-password-instance`
