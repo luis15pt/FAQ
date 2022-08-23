@@ -37,6 +37,7 @@ HyperStack is responsible for operating and securing:
  - Our Control plane
  - Our Management systems
  - The Operating systems for specific managed services
+ 
 * Ensuring isolation of private resources between tenancies, where these have been configured as private
 
 
@@ -46,13 +47,17 @@ Customers are responsible for configuring, operating and securing:
 * Operating systems relating to the images run on your compute resources
 
  - This includes any applications running or data stored on your instances.
+ 
 * Data stored on any services on the cloud (block storage, object storage, databases etc.)
 * Authentication to your applications, resources and systems.
 
  -  This includes managing and maintaining which users have access to your project(s).
+ 
 * The Containers you run on the cloud
 * Application software and configuration
 * Any sharing of resources with the Internet or other tenants
+
+
 
 Availability and Durability
 ===========================
