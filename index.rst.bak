@@ -19,21 +19,15 @@ Documentation table of contents
 
   homepage.rst
   instances.rst
-  networks.rst
-  cloud-routers.rst
-  cloud-security-groups.rst  
   floating-ips.rst
-  ssh-keys.rst 
   cloud-api-users.rst
-  cloud-init.rst
+  ssh-keys.rst
   volumes.rst
-  services.rst 
-  invoicing.rst  
   billing-history.rst
+  networks.rst
+  cloud-security-groups.rst
+  cloud-init.rst
+  cloud-routers.rst
+  services.rst
+  invoicing.rst
   faq
-
-
-
-
-
-

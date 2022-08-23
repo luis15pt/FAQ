@@ -18,7 +18,7 @@ In this page, you can do as follow:
 Get me a network
 ================
 
-**Important**: For the "Get me a network feature to work" staff must configure it.
+**Important**: For the "Get me a network feature to work" staff must configure it. More details at :doc:`Staff Networks </staff/networks>`.
 
 A simple way to create a private network connected to the outside world, is to use this feature.
 Go to **Networks** from the Main Menu, Cloud and then to **Get me a network** (bottom right).

@@ -16,8 +16,11 @@ The main menu can be switched on and off using the button from the top-left side
     .. image:: /_static/images/homepagecloudtab.png
 
     - **Instances**: *Manage your instances. View details for your instances.*
+    - **Clusters**: *Manage your clusters.*
+    - **Cluster Template**: *Create and manage your cluster's template.*
     - **Networks**: *Create or see details about your networks*
     - **Routers**: *Create and manage your routers*
+    - **Zones**: *Create and manage DNS zones*
     - **Security groups**: *Manage your  security groups*
     - **Floating IPs**: *Manage your floating IPs.*
     - **SSH Keys**: *Manage your SSH keys.* 	

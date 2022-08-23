@@ -155,7 +155,7 @@ Rename instance
 ===============
 
 If you want to rename an instance, click more and select **Rename**. Enter the new name and click on **Rename Instance**. 
-This will set the name in the HyperStack database. The hostname inside the instance will not be set.
+This will set the name in the Fleio and OpenStack database. The hostname inside the instance will not be set.
 
 .. image:: /_static/images/instances-rename.png
 

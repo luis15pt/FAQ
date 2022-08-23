@@ -16,7 +16,7 @@ From here you can pay your invoices using one of the payment gateways configured
 
 .. image:: /_static/images/invoicing2.png 
 
-Select your payment method.
+Select your payment method. (if you have active balance you can choose "Credit Balance" as the payment option)
 
 .. image:: /_static/images/select-payment-type.png 
 

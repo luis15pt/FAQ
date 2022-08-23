@@ -3,7 +3,7 @@ Cloud / Security Groups
 
 
 On this page the end user can manage security groups and security rules to manage network traffic.
-By default all network traffic is allowed and you define security groups and rules to block specific network traffic.
+By default all network traffic is blocked and you define security groups and rules to allow specific network traffic.
 
 When you access this page a list of existing security groups are displayed in card or table format:
 

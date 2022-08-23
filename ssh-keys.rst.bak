@@ -15,8 +15,9 @@ In this page, you can do as follow:
 
 .. important::
 
-   * SSH keys added in Fleio are saved only in the HyperStack database and they are not added in the Openstack keypair
+   * SSH keys added in Fleio are saved only in the Fleio database and they are not added in the Openstack keypair
    * On new instance creation the key is deployed trough cloud init (see :ref:`ssh-key-injection`)
+   * When deploying a cluster the key will be added in Openstack and it will be assigned to the selected api user.
 
 .. _add-new-ssh-key:
 
@@ -116,10 +117,10 @@ SSH key details area
 
 .. _warnings:
 
-Warning - "Invalid SSH public key"
+Warning - "Your form contains errors"
 =====================================
 
-If you are prompted with the following message "Invalid SSH public key", when trying to add a new SSH key, you have to check:
+If you are prompted with the following message "Your form contains errors", when trying to add a new SSH key, you have to check:
 
     - ``Name``, as there might be some unsafe characters() used - **"Name contains unsafe characters"**
     - ``Key Content``, as the SSH public key added might be invalid - **"Invalid SSH public key."**
