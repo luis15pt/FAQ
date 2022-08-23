@@ -40,6 +40,7 @@ From the top-right of the page, you can sort instances by:
 
 	* Name
 	* Admin state
+	* Region
 
 .. image:: /_static/images/routers-sort.png
 
@@ -66,14 +67,6 @@ You can add a router interface by selecting a subnet that is not already an inte
 
 .. image:: /_static/images/routers-add-interface.png
 
-.. _remove-interface-routers:
-
-Remove router interface
-=======================
-
-You remove an interface by going to router's details and clicking the delete button near an interface.
-
-.. image:: /_static/images/routers-remove-interface.png
 
 .. _delete-routers:
 
