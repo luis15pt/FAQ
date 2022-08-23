@@ -72,7 +72,7 @@ release = u'2022.08.1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = en
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -135,7 +135,7 @@ html_theme = 'alabaster'
 # html_theme_options = {}
 html_theme_options = {
     'fixed_sidebar': 'true',
-    'description': 'OpenStack Billing System and Self-Service Portal for Service Providers',
+    'description': 'HyperStack documentation',
     'page_width': '1200px',
 }
 
