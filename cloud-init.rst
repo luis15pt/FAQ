@@ -18,9 +18,9 @@ Examples that illustrate how to perform
 common initialisation tasks with cloud-init
 
 
-.. tabs::
 
-    .. tab:: Cloud config
+
+ Cloud config
 
       The cloud config format is the simplest way to accomplish initialisation tasks
       using the cloud-config syntax. The example below illustrates how to upgrade
@@ -85,7 +85,6 @@ common initialisation tasks with cloud-init
         output: {all: '| tee -a /var/log/cloud-init-output.log'}
 
 
-    .. tab:: Script format
 	
 	
 Cloud-init official docs

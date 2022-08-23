@@ -86,3 +86,11 @@ common initialisation tasks with cloud-init
 
 
     .. tab:: Script format
+	
+	
+Cloud-init official docs
+========================
+
+For other formats and more detailed information on how to use cloud-init to
+initialise your compute instances, please refer to the `cloud-init official
+documentation <http://cloudinit.readthedocs.org/en/latest/index.html>`_.
