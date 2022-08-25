@@ -183,32 +183,24 @@ Installing the latest 515 drivers for server. More info on the drivers here: htt
 
 .. code-block:: bash
 
-apt -y install nvidia-driver-515-server
+  apt -y install nvidia-driver-515-server
 
 check by Running
 
 .. code-block:: console
-nvidia-smi
 
-+-----------------------------------------------------------------------------+
-| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
-|-------------------------------+----------------------+----------------------+
-| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-|                               |                      |               MIG M. |
-|===============================+======================+======================|
-|   0  NVIDIA RTX A4000    Off  | 00000000:00:05.0 Off |                  Off |
-| 30%   52C    P0    36W / 140W |      0MiB / 16376MiB |      5%      Default |
-|                               |                      |                  N/A |
-+-------------------------------+----------------------+----------------------+
-
-+-----------------------------------------------------------------------------+
-| Processes:                                                                  |
-|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
-|        ID   ID                                                   Usage      |
-|=============================================================================|
-|  No running processes found                                                 |
-+-----------------------------------------------------------------------------+
+  nvidia-smi
+  +-----------------------------------------------------------------------------+
+  | NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+  |-------------------------------+----------------------+----------------------+
+  | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+  | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+  |                               |                      |               MIG M. |
+  |===============================+======================+======================|
+  |   0  NVIDIA RTX A4000    Off  | 00000000:00:05.0 Off |                  Off |
+  | 30%   52C    P0    36W / 140W |      0MiB / 16376MiB |      5%      Default |
+  |                               |                      |                  N/A |
+  +-------------------------------+----------------------+----------------------+
 
 
 
@@ -220,13 +212,14 @@ Installing the Cuda drivers:
 
 .. code-block:: bash
 
-apt -y install nvidia-cuda-toolkit
+  apt -y install nvidia-cuda-toolkit
 
 check by Running
 
 .. code-block:: console
-nvcc --version
-nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2017 NVIDIA Corporation
-Built on Fri_Nov__3_21:07:56_CDT_2017
-Cuda compilation tools, release 9.1, V9.1.85
+
+  nvcc --version
+  nvcc: NVIDIA (R) Cuda compiler driver
+  Copyright (c) 2005-2017 NVIDIA Corporation
+  Built on Fri_Nov__3_21:07:56_CDT_2017
+  Cuda compilation tools, release 9.1, V9.1.85
