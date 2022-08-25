@@ -173,3 +173,62 @@ Use the commands below to configure and generate your locales. Replace
   sudo echo "LC_ALL=en_US.UTF-8" >> /etc/environment
   sudo dpkg-reconfigure locales
 
+
+*******************************
+Installing Nvidia Drivers
+*******************************
+
+Installing the latest 515 drivers for server. More info on the drivers here: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-65-01/index.html
+
+
+.. code-block:: bash
+
+apt -y install nvidia-driver-515-server
+
+
+check by Running
+
+.. code-block:: bash
+
+nvidia-smi
+Thu Aug 25 10:19:33 2022
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA RTX A4000    Off  | 00000000:00:05.0 Off |                  Off |
+| 30%   52C    P0    36W / 140W |      0MiB / 16376MiB |      5%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+
+
+*******************************
+Installing Nvidia Cuda drivers
+*******************************
+
+Installing the Cuda drivers:
+
+.. code-block:: bash
+
+apt -y install nvidia-cuda-toolkit
+
+check by Running
+
+.. code-block:: bash
+nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Nov__3_21:07:56_CDT_2017
+Cuda compilation tools, release 9.1, V9.1.85
