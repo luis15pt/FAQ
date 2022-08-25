@@ -223,3 +223,14 @@ check by Running
   Copyright (c) 2005-2017 NVIDIA Corporation
   Built on Fri_Nov__3_21:07:56_CDT_2017
   Cuda compilation tools, release 9.1, V9.1.85
+
+
+*******************************
+Monitoring Nvidia GPU status
+*******************************
+
+You can view the Status of the GPU´s with the following command:
+
+.. code-block:: bash
+
+watch -n 1 nvidia-smi --query-gpu=gpu_name,clocks.sm,clocks.mem,temperature.gpu,power.draw,clocks_throttle_reasons.sw_thermal_slowdown --format=csv

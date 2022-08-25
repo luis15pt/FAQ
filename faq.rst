@@ -233,4 +233,4 @@ You can view the Status of the GPU´s with the following command:
 
 .. code-block:: bash
 
-watch -n 1 nvidia-smi --query-gpu=gpu_name,clocks.sm,clocks.mem,temperature.gpu,power.draw,clocks_throttle_reasons.sw_thermal_slowdown --format=csv
+ watch -n 1 nvidia-smi --query-gpu=gpu_name,clocks.sm,clocks.mem,temperature.gpu,power.draw,clocks_throttle_reasons.sw_thermal_slowdown --format=csv
