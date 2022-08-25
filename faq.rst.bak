@@ -178,7 +178,8 @@ Use the commands below to configure and generate your locales. Replace
 Installing Nvidia Drivers
 *******************************
 
-Installing the latest 515 drivers for server.
+Installing the latest 515 drivers for server. More info on the drivers here: https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-515-65-01/index.html
+
 
 .. code-block:: bash
 

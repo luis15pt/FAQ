@@ -185,13 +185,11 @@ Installing the latest 515 drivers for server. More info on the drivers here: htt
 
 apt -y install nvidia-driver-515-server
 
-
 check by Running
 
-.. code-block:: bash
-
+.. code-block:: console
 nvidia-smi
-Thu Aug 25 10:19:33 2022
+
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
 |-------------------------------+----------------------+----------------------+
@@ -226,7 +224,7 @@ apt -y install nvidia-cuda-toolkit
 
 check by Running
 
-.. code-block:: bash
+.. code-block:: console
 nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2017 NVIDIA Corporation
