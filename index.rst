@@ -76,8 +76,9 @@ Now that you are aware of how the shared responsibility model works on the Hyper
 .. toctree::
 
 
-
+  
   homepage.rst
+  quickstart.rst
   instances.rst
   networks.rst
   cloud-routers.rst

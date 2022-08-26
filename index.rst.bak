@@ -1,8 +1,6 @@
-======================================
-Welcome to HyperStack Documentation
-======================================
-
+================
 HyperStack Intro
+================
 
 HyperStack is a cloud computing platform, based entirely in Europe
 
@@ -10,7 +8,7 @@ HyperStack was built with the open source project, OpenStack. Using OpenStack ou
 
 OpenStack gives you the ability to provision no more or less than what you need, by allowing you to change how much you are using quickly, easily, and automatically, through a variety of tools.
 
-To obtain resources on HyperStack, you provision services. HyperStack services are pieces of hardware and software that we have in one of our data centres. We make these easy and convenient to use through a variety of tools including our Dashboard web application and OpenStack API.
+To obtain resources on HyperStack, you provision services. HyperStack services are pieces of hardware and software that we have in one of our data centers. We make these easy and convenient to use through a variety of tools including our Dashboard web application and OpenStack API.
 
 The shared responsibility model
 ================================
@@ -25,7 +23,7 @@ The model HyperStack uses is sometimes called the “Shared Responsibility Model
 Demarcation of Responsibilities
 HyperStack is responsible for operating and securing:
 
-* Our data centres
+* Our data centers
 * Network functionality of the cloud
 * Hardware
 * Hypervisors
