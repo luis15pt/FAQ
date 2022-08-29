@@ -16,17 +16,40 @@ Create an account at: https://beta.nexgencloud.com/signup
 First Login
 ===========
 
-Login with the details provided in account creation and fill in the required fields marked with an 
-
-Account details
-===============
+On the first login you will have to provide personal information before you can continue.
 
 Fill in account details, make sure to all required details
 
+.. image:: /_static/images/accountdetails.png
 
+Finish by selecting **ADD CLIENT BILLING INFORMATION**
 
+Main Menu
+=========
 
-The main menu can be switched on and off using the button from the top-left side of the screen. The menu consists of the home button which redirects the user back to this page and two tabs that have the following structure:
-
-
+After filling out all the required information you will be sent to the **HOME** menu, located on the top left of your screen. 
 	
+.. image:: /_static/images/accountlogin.png
+
+
+
+Billing setup
+=============
+
+The next step would be to setup billing, use the **ADD CREDIT** in the **HOME** menu.
+
+.. image:: /_static/images/accountcredit.png
+
+Fill in how much credit you would like to add to your account, this will generate an invoice in the next step
+
+.. image:: /_static/images/accountcreditadd.png
+
+Here you can see your new generated invoice, you can select the following payment methods, Paypal or Stripe. We also accept bank transfers, for this create a new ticket. You may also download your invoice that was generated automatically. 
+
+.. image:: /_static/images/accountinvoice.png
+
+Once payment has been confirmed the invoice will be updated to paid status and the funds will show up in the **HOME** menu.
+
+.. image:: /_static/images/accountinvoicepaid.png
+
+.. image:: /_static/images/credit.png
