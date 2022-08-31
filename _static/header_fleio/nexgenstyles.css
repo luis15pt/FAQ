@@ -3131,7 +3131,7 @@ html {
   /* Cloud -> Load balancers */
   /* Domains */
   display: none;
-#  /* hidding other links for non accessable pages */
+
 }
 .ngc app-domains-dashboard-services-rows {
   display: none;
