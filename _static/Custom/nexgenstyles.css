@@ -1,0 +1,3138 @@
+html {
+  opacity: 1;
+  pointer-events: all;
+}
+/* copied from theme DUSK */
+:root {
+  --main-color: 26, 202, 244;
+  --main-color-button: var(--main-color);
+}
+.ngc .app-theme-spring .mat-ripple-element {
+  background-color: #0000001a;
+}
+.ngc .app-theme-spring .mat-option {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-option:hover:not(.mat-option-disabled),
+.ngc .app-theme-spring .mat-option:focus:not(.mat-option-disabled) {
+  background: rgba(0, 0, 0, 0.04);
+}
+.ngc
+  .app-theme-spring
+  .mat-option.mat-selected:not(.mat-option-multiple):not(.mat-option-disabled) {
+  background: rgba(0, 0, 0, 0.04);
+}
+.ngc .app-theme-spring .mat-option.mat-active {
+  background: rgba(0, 0, 0, 0.04);
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-option.mat-option-disabled {
+  color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-primary
+  .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-accent
+  .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-warn
+  .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-optgroup-label {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-optgroup-disabled .mat-optgroup-label {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-pseudo-checkbox {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-pseudo-checkbox:after {
+  color: #fafafa;
+}
+.ngc .app-theme-spring .mat-pseudo-checkbox-disabled {
+  color: #b0b0b0;
+}
+.ngc .app-theme-spring .mat-primary .mat-pseudo-checkbox-checked,
+.ngc .app-theme-spring .mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-pseudo-checkbox-checked,
+.ngc .app-theme-spring .mat-pseudo-checkbox-indeterminate,
+.ngc .app-theme-spring .mat-accent .mat-pseudo-checkbox-checked,
+.ngc .app-theme-spring .mat-accent .mat-pseudo-checkbox-indeterminate {
+  background: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-warn .mat-pseudo-checkbox-checked,
+.ngc .app-theme-spring .mat-warn .mat-pseudo-checkbox-indeterminate {
+  background: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-disabled,
+.ngc
+  .app-theme-spring
+  .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-disabled {
+  background: #b0b0b0;
+}
+.ngc .app-theme-spring .mat-app-background,
+.ngc .app-theme-spring.mat-app-background {
+  background-color: #fafafa;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-elevation-z0 {
+  box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z1 {
+  box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z2 {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z3 {
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px #00000024, 0 1px 8px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z4 {
+  box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z5 {
+  box-shadow: 0 3px 5px -1px #0003, 0 5px 8px #00000024, 0 1px 14px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z6 {
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z7 {
+  box-shadow: 0 4px 5px -2px #0003, 0 7px 10px 1px #00000024,
+    0 2px 16px 1px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z8 {
+  box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024,
+    0 3px 14px 2px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z9 {
+  box-shadow: 0 5px 6px -3px #0003, 0 9px 12px 1px #00000024,
+    0 3px 16px 2px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z10 {
+  box-shadow: 0 6px 6px -3px #0003, 0 10px 14px 1px #00000024,
+    0 4px 18px 3px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z11 {
+  box-shadow: 0 6px 7px -4px #0003, 0 11px 15px 1px #00000024,
+    0 4px 20px 3px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z12 {
+  box-shadow: 0 7px 8px -4px #0003, 0 12px 17px 2px #00000024,
+    0 5px 22px 4px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z13 {
+  box-shadow: 0 7px 8px -4px #0003, 0 13px 19px 2px #00000024,
+    0 5px 24px 4px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z14 {
+  box-shadow: 0 7px 9px -4px #0003, 0 14px 21px 2px #00000024,
+    0 5px 26px 4px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z15 {
+  box-shadow: 0 8px 9px -5px #0003, 0 15px 22px 2px #00000024,
+    0 6px 28px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z16 {
+  box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024,
+    0 6px 30px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z17 {
+  box-shadow: 0 8px 11px -5px #0003, 0 17px 26px 2px #00000024,
+    0 6px 32px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z18 {
+  box-shadow: 0 9px 11px -5px #0003, 0 18px 28px 2px #00000024,
+    0 7px 34px 6px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z19 {
+  box-shadow: 0 9px 12px -6px #0003, 0 19px 29px 2px #00000024,
+    0 7px 36px 6px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z20 {
+  box-shadow: 0 10px 13px -6px #0003, 0 20px 31px 3px #00000024,
+    0 8px 38px 7px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z21 {
+  box-shadow: 0 10px 13px -6px #0003, 0 21px 33px 3px #00000024,
+    0 8px 40px 7px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z22 {
+  box-shadow: 0 10px 14px -6px #0003, 0 22px 35px 3px #00000024,
+    0 8px 42px 7px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z23 {
+  box-shadow: 0 11px 14px -7px #0003, 0 23px 36px 3px #00000024,
+    0 9px 44px 8px #0000001f;
+}
+.ngc .app-theme-spring .mat-elevation-z24 {
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
+    0 9px 46px 8px #0000001f;
+}
+.ngc .mat-theme-loaded-marker {
+  display: none;
+}
+.ngc .app-theme-spring .mat-autocomplete-panel {
+  background: white;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-autocomplete-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-autocomplete-panel
+  .mat-option.mat-selected:not(.mat-active):not(:hover) {
+  background: white;
+}
+.ngc
+  .app-theme-spring
+  .mat-autocomplete-panel
+  .mat-option.mat-selected:not(.mat-active):not(:hover):not(.mat-option-disabled) {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-badge {
+  position: relative;
+}
+.ngc .app-theme-spring .mat-badge.mat-badge {
+  overflow: visible;
+}
+.ngc .app-theme-spring .mat-badge-hidden .mat-badge-content {
+  display: none;
+}
+.ngc .app-theme-spring .mat-badge-content {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(0.6);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.ngc .app-theme-spring .ng-animate-disabled .mat-badge-content,
+.ngc .app-theme-spring .mat-badge-content._mat-animation-noopable {
+  transition: none;
+}
+.ngc .app-theme-spring .mat-badge-content.mat-badge-active {
+  transform: none;
+}
+.ngc .app-theme-spring .mat-badge-small .mat-badge-content {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+.ngc .app-theme-spring .mat-badge-small.mat-badge-above .mat-badge-content {
+  top: -8px;
+}
+.ngc .app-theme-spring .mat-badge-small.mat-badge-below .mat-badge-content {
+  bottom: -8px;
+}
+.ngc .app-theme-spring .mat-badge-small.mat-badge-before .mat-badge-content {
+  left: -16px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-small.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -16px;
+}
+.ngc .app-theme-spring .mat-badge-small.mat-badge-after .mat-badge-content {
+  right: -16px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-small.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -16px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-small.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: -8px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-small.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -8px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-small.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: -8px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-small.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -8px;
+}
+.ngc .app-theme-spring .mat-badge-medium .mat-badge-content {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+}
+.ngc .app-theme-spring .mat-badge-medium.mat-badge-above .mat-badge-content {
+  top: -11px;
+}
+.ngc .app-theme-spring .mat-badge-medium.mat-badge-below .mat-badge-content {
+  bottom: -11px;
+}
+.ngc .app-theme-spring .mat-badge-medium.mat-badge-before .mat-badge-content {
+  left: -22px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -22px;
+}
+.ngc .app-theme-spring .mat-badge-medium.mat-badge-after .mat-badge-content {
+  right: -22px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -22px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: -11px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -11px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: -11px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-medium.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -11px;
+}
+.ngc .app-theme-spring .mat-badge-large .mat-badge-content {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+}
+.ngc .app-theme-spring .mat-badge-large.mat-badge-above .mat-badge-content {
+  top: -14px;
+}
+.ngc .app-theme-spring .mat-badge-large.mat-badge-below .mat-badge-content {
+  bottom: -14px;
+}
+.ngc .app-theme-spring .mat-badge-large.mat-badge-before .mat-badge-content {
+  left: -28px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-large.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -28px;
+}
+.ngc .app-theme-spring .mat-badge-large.mat-badge-after .mat-badge-content {
+  right: -28px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-large.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -28px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-large.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: -14px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-large.mat-badge-overlap.mat-badge-before
+  .mat-badge-content {
+  left: auto;
+  right: -14px;
+}
+.ngc
+  .app-theme-spring
+  .mat-badge-large.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: -14px;
+}
+.ngc
+  [dir="rtl"]
+  .app-theme-spring
+  .mat-badge-large.mat-badge-overlap.mat-badge-after
+  .mat-badge-content {
+  right: auto;
+  left: -14px;
+}
+.ngc .app-theme-spring .mat-badge-content {
+  color: #fff;
+  background: rgba(var(--main-color));
+}
+.ngc .cdk-high-contrast-active .app-theme-spring .mat-badge-content {
+  outline: solid 1px;
+  border-radius: 0;
+}
+.ngc .app-theme-spring .mat-badge-accent .mat-badge-content {
+  background: rgba(var(--main-color-button));
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-badge-warn .mat-badge-content {
+  color: #fff;
+  background: #f44336;
+}
+.ngc .app-theme-spring .mat-badge-disabled .mat-badge-content {
+  background: #b9b9b9;
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-bottom-sheet-container {
+  box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024,
+    0 6px 30px 5px #0000001f;
+  background: white;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-button,
+.ngc .app-theme-spring .mat-icon-button,
+.ngc .app-theme-spring .mat-stroked-button {
+  color: inherit;
+  background: transparent;
+}
+.ngc .app-theme-spring .mat-button.mat-primary,
+.ngc .app-theme-spring .mat-icon-button.mat-primary,
+.ngc .app-theme-spring .mat-stroked-button.mat-primary {
+  color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-button.mat-accent,
+.ngc .app-theme-spring .mat-icon-button.mat-accent,
+.ngc .app-theme-spring .mat-stroked-button.mat-accent {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-button.mat-warn,
+.ngc .app-theme-spring .mat-icon-button.mat-warn,
+.ngc .app-theme-spring .mat-stroked-button.mat-warn {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-button.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-icon-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-icon-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-icon-button.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-icon-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-stroked-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-stroked-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-stroked-button.mat-warn.mat-button-disabled,
+.ngc
+  .app-theme-spring
+  .mat-stroked-button.mat-button-disabled.mat-button-disabled {
+  color: #00000042;
+}
+.ngc .app-theme-spring .mat-button.mat-primary .mat-button-focus-overlay,
+.ngc .app-theme-spring .mat-icon-button.mat-primary .mat-button-focus-overlay,
+.ngc
+  .app-theme-spring
+  .mat-stroked-button.mat-primary
+  .mat-button-focus-overlay {
+  background-color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-button.mat-accent .mat-button-focus-overlay,
+.ngc .app-theme-spring .mat-icon-button.mat-accent .mat-button-focus-overlay,
+.ngc
+  .app-theme-spring
+  .mat-stroked-button.mat-accent
+  .mat-button-focus-overlay {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-button.mat-warn .mat-button-focus-overlay,
+.ngc .app-theme-spring .mat-icon-button.mat-warn .mat-button-focus-overlay,
+.ngc .app-theme-spring .mat-stroked-button.mat-warn .mat-button-focus-overlay {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-button.mat-button-disabled
+  .mat-button-focus-overlay,
+.ngc
+  .app-theme-spring
+  .mat-icon-button.mat-button-disabled
+  .mat-button-focus-overlay,
+.ngc
+  .app-theme-spring
+  .mat-stroked-button.mat-button-disabled
+  .mat-button-focus-overlay {
+  background-color: transparent;
+}
+.ngc .app-theme-spring .mat-button .mat-ripple-element,
+.ngc .app-theme-spring .mat-icon-button .mat-ripple-element,
+.ngc .app-theme-spring .mat-stroked-button .mat-ripple-element {
+  opacity: 0.1;
+  background-color: currentColor;
+}
+.ngc .app-theme-spring .mat-button-focus-overlay {
+  background: black;
+}
+.ngc .app-theme-spring .mat-stroked-button:not(.mat-button-disabled) {
+  border-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-flat-button,
+.ngc .app-theme-spring .mat-raised-button,
+.ngc .app-theme-spring .mat-fab,
+.ngc .app-theme-spring .mat-mini-fab {
+  color: #000000de;
+  background-color: #fff;
+}
+.ngc .app-theme-spring .mat-flat-button.mat-primary,
+.ngc .app-theme-spring .mat-raised-button.mat-primary,
+.ngc .app-theme-spring .mat-fab.mat-primary,
+.ngc .app-theme-spring .mat-mini-fab.mat-primary,
+.ngc .app-theme-spring .mat-flat-button.mat-accent,
+.ngc .app-theme-spring .mat-raised-button.mat-accent,
+.ngc .app-theme-spring .mat-fab.mat-accent,
+.ngc .app-theme-spring .mat-mini-fab.mat-accent,
+.ngc .app-theme-spring .mat-flat-button.mat-warn,
+.ngc .app-theme-spring .mat-raised-button.mat-warn,
+.ngc .app-theme-spring .mat-fab.mat-warn,
+.ngc .app-theme-spring .mat-mini-fab.mat-warn {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-flat-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-warn.mat-button-disabled,
+.ngc
+  .app-theme-spring
+  .mat-raised-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-button-disabled.mat-button-disabled {
+  color: #00000042;
+}
+.ngc .app-theme-spring .mat-flat-button.mat-primary,
+.ngc .app-theme-spring .mat-raised-button.mat-primary,
+.ngc .app-theme-spring .mat-fab.mat-primary,
+.ngc .app-theme-spring .mat-mini-fab.mat-primary {
+  background-color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-flat-button.mat-accent,
+.ngc .app-theme-spring .mat-raised-button.mat-accent,
+.ngc .app-theme-spring .mat-fab.mat-accent,
+.ngc .app-theme-spring .mat-mini-fab.mat-accent {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-flat-button.mat-warn,
+.ngc .app-theme-spring .mat-raised-button.mat-warn,
+.ngc .app-theme-spring .mat-fab.mat-warn,
+.ngc .app-theme-spring .mat-mini-fab.mat-warn {
+  background-color: #f44336;
+}
+.ngc .app-theme-spring .mat-flat-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-flat-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-raised-button.mat-warn.mat-button-disabled,
+.ngc
+  .app-theme-spring
+  .mat-raised-button.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-fab.mat-button-disabled.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-primary.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-accent.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-warn.mat-button-disabled,
+.ngc .app-theme-spring .mat-mini-fab.mat-button-disabled.mat-button-disabled {
+  background-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-flat-button.mat-primary .mat-ripple-element,
+.ngc .app-theme-spring .mat-raised-button.mat-primary .mat-ripple-element,
+.ngc .app-theme-spring .mat-fab.mat-primary .mat-ripple-element,
+.ngc .app-theme-spring .mat-mini-fab.mat-primary .mat-ripple-element,
+.ngc .app-theme-spring .mat-flat-button.mat-accent .mat-ripple-element,
+.ngc .app-theme-spring .mat-raised-button.mat-accent .mat-ripple-element,
+.ngc .app-theme-spring .mat-fab.mat-accent .mat-ripple-element,
+.ngc .app-theme-spring .mat-mini-fab.mat-accent .mat-ripple-element,
+.ngc .app-theme-spring .mat-flat-button.mat-warn .mat-ripple-element,
+.ngc .app-theme-spring .mat-raised-button.mat-warn .mat-ripple-element,
+.ngc .app-theme-spring .mat-fab.mat-warn .mat-ripple-element,
+.ngc .app-theme-spring .mat-mini-fab.mat-warn .mat-ripple-element {
+  background-color: #ffffff1a;
+}
+.ngc .app-theme-spring .mat-stroked-button:not([class*="mat-elevation-z"]),
+.ngc .app-theme-spring .mat-flat-button:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+}
+.ngc .app-theme-spring .mat-raised-button:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-raised-button:not(.mat-button-disabled):active:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 5px 5px -3px #0003, 0 8px 10px 1px #00000024,
+    0 3px 14px 2px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-raised-button.mat-button-disabled:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+}
+.ngc .app-theme-spring .mat-fab:not([class*="mat-elevation-z"]),
+.ngc .app-theme-spring .mat-mini-fab:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-fab:not(.mat-button-disabled):active:not([class*="mat-elevation-z"]),
+.ngc
+  .app-theme-spring
+  .mat-mini-fab:not(.mat-button-disabled):active:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 7px 8px -4px #0003, 0 12px 17px 2px #00000024,
+    0 5px 22px 4px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-fab.mat-button-disabled:not([class*="mat-elevation-z"]),
+.ngc
+  .app-theme-spring
+  .mat-mini-fab.mat-button-disabled:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-standalone:not([class*="mat-elevation-z"]),
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-group:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-standalone.mat-button-toggle-appearance-standard:not([class*="mat-elevation-z"]),
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-group-appearance-standard:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
+}
+.ngc .app-theme-spring .mat-button-toggle {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-button-toggle .mat-button-toggle-focus-overlay {
+  background-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-button-toggle-appearance-standard {
+  color: #000000de;
+  background: white;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-appearance-standard
+  .mat-button-toggle-focus-overlay {
+  background-color: #000;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-group-appearance-standard
+  .mat-button-toggle
+  + .mat-button-toggle {
+  border-left: solid 1px #e0e0e0;
+}
+.ngc
+  .app-theme-spring
+  [dir="rtl"]
+  .mat-button-toggle-group-appearance-standard
+  .mat-button-toggle
+  + .mat-button-toggle {
+  border-left: none;
+  border-right: solid 1px #e0e0e0;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-group-appearance-standard.mat-button-toggle-vertical
+  .mat-button-toggle
+  + .mat-button-toggle {
+  border-left: none;
+  border-right: none;
+  border-top: solid 1px #e0e0e0;
+}
+.ngc .app-theme-spring .mat-button-toggle-checked {
+  background-color: #e0e0e0;
+  color: #0000008a;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-checked.mat-button-toggle-appearance-standard {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-button-toggle-disabled {
+  color: #00000042;
+  background-color: #eee;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-disabled.mat-button-toggle-appearance-standard {
+  background: white;
+}
+.ngc .app-theme-spring .mat-button-toggle-disabled.mat-button-toggle-checked {
+  background-color: #bdbdbd;
+}
+.ngc
+  .app-theme-spring
+  .mat-button-toggle-standalone.mat-button-toggle-appearance-standard,
+.ngc .app-theme-spring .mat-button-toggle-group-appearance-standard {
+  border: solid 1px #e0e0e0;
+}
+.ngc .app-theme-spring .mat-card {
+  background: white;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+}
+.ngc .app-theme-spring .mat-card.mat-card-flat:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+}
+.ngc .app-theme-spring .mat-card-subtitle {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-checkbox-frame {
+  border-color: #0000008a;
+}
+.ngc .app-theme-spring .mat-checkbox-checkmark {
+  fill: #fafafa;
+}
+.ngc .app-theme-spring .mat-checkbox-checkmark-path {
+  stroke: #fafafa !important;
+}
+.ngc .app-theme-spring .mat-checkbox-mixedmark {
+  background-color: #fafafa;
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-indeterminate.mat-primary
+  .mat-checkbox-background,
+.ngc
+  .app-theme-spring
+  .mat-checkbox-checked.mat-primary
+  .mat-checkbox-background {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-indeterminate.mat-accent
+  .mat-checkbox-background,
+.ngc
+  .app-theme-spring
+  .mat-checkbox-checked.mat-accent
+  .mat-checkbox-background {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-indeterminate.mat-warn
+  .mat-checkbox-background,
+.ngc .app-theme-spring .mat-checkbox-checked.mat-warn .mat-checkbox-background {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-disabled.mat-checkbox-checked
+  .mat-checkbox-background,
+.ngc
+  .app-theme-spring
+  .mat-checkbox-disabled.mat-checkbox-indeterminate
+  .mat-checkbox-background {
+  background-color: #b0b0b0;
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-disabled:not(.mat-checkbox-checked)
+  .mat-checkbox-frame {
+  border-color: #b0b0b0;
+}
+.ngc .app-theme-spring .mat-checkbox-disabled .mat-checkbox-label {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-checkbox .mat-ripple-element {
+  background-color: #000;
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-primary
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-checkbox:active:not(.mat-checkbox-disabled).mat-primary
+  .mat-ripple-element {
+  background: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent
+  .mat-ripple-element {
+  background: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-warn
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-checkbox:active:not(.mat-checkbox-disabled).mat-warn
+  .mat-ripple-element {
+  background: #f44336;
+}
+.ngc .app-theme-spring .mat-chip.mat-standard-chip {
+  background-color: #e0e0e0;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-chip.mat-standard-chip .mat-chip-remove {
+  color: #000000de;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip:not(.mat-chip-disabled):active {
+  box-shadow: 0 3px 3px -2px #0003, 0 3px 4px #00000024, 0 1px 8px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip:not(.mat-chip-disabled)
+  .mat-chip-remove:hover {
+  opacity: 0.54;
+}
+.ngc .app-theme-spring .mat-chip.mat-standard-chip.mat-chip-disabled {
+  opacity: 0.4;
+}
+.ngc .app-theme-spring .mat-chip.mat-standard-chip:after {
+  background: black;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+  background-color: rgba(var(--main-color));
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary
+  .mat-chip-remove {
+  color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary
+  .mat-ripple-element {
+  background-color: #ffffff1a;
+}
+.ngc .app-theme-spring .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn {
+  background-color: #f44336;
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn
+  .mat-chip-remove {
+  color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn
+  .mat-ripple-element {
+  background-color: #ffffff1a;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent {
+  background-color: rgba(var(--main-color-button));
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent
+  .mat-chip-remove {
+  color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent
+  .mat-ripple-element {
+  background-color: #ffffff1a;
+}
+.ngc .app-theme-spring .mat-table {
+  background: white;
+}
+.ngc .app-theme-spring .mat-table thead,
+.ngc .app-theme-spring .mat-table tbody,
+.ngc .app-theme-spring .mat-table tfoot,
+.ngc .app-theme-spring mat-header-row,
+.ngc .app-theme-spring mat-row,
+.ngc .app-theme-spring mat-footer-row,
+.ngc .app-theme-spring [mat-header-row],
+.ngc .app-theme-spring [mat-row],
+.ngc .app-theme-spring [mat-footer-row],
+.ngc .app-theme-spring .mat-table-sticky {
+  background: inherit;
+}
+.ngc .app-theme-spring mat-row,
+.ngc .app-theme-spring mat-header-row,
+.ngc .app-theme-spring mat-footer-row,
+.ngc .app-theme-spring th.mat-header-cell,
+.ngc .app-theme-spring td.mat-cell,
+.ngc .app-theme-spring td.mat-footer-cell {
+  border-bottom-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-header-cell {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-cell,
+.ngc .app-theme-spring .mat-footer-cell {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-calendar-arrow {
+  fill: #0000008a;
+}
+.ngc .app-theme-spring .mat-datepicker-toggle,
+.ngc .app-theme-spring .mat-datepicker-content .mat-calendar-next-button,
+.ngc .app-theme-spring .mat-datepicker-content .mat-calendar-previous-button {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-calendar-table-header-divider:after {
+  background: rgba(0, 0, 0, 0.12);
+}
+.ngc .app-theme-spring .mat-calendar-table-header,
+.ngc .app-theme-spring .mat-calendar-body-label {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-calendar-body-cell-content,
+.ngc .app-theme-spring .mat-date-range-input-separator {
+  color: #000000de;
+  border-color: transparent;
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-disabled
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-disabled
+  .mat-date-range-input-separator {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-calendar-body-in-preview {
+  color: #0000003d;
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-today:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  border-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-disabled
+  > .mat-calendar-body-today:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  border-color: #0000002e;
+}
+.ngc .app-theme-spring .mat-calendar-body-in-range:before {
+  background: rgba(8, 54, 82, 0.2);
+}
+.ngc .app-theme-spring .mat-calendar-body-comparison-identical,
+.ngc .app-theme-spring .mat-calendar-body-in-comparison-range:before {
+  background: rgba(249, 171, 0, 0.2);
+}
+.ngc .app-theme-spring .mat-calendar-body-comparison-bridge-start:before,
+.ngc
+  .app-theme-spring
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-end:before {
+  background: linear-gradient(
+    to right,
+    rgba(8, 54, 82, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc .app-theme-spring .mat-calendar-body-comparison-bridge-end:before,
+.ngc
+  .app-theme-spring
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-start:before {
+  background: linear-gradient(
+    to left,
+    rgba(8, 54, 82, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-in-range
+  > .mat-calendar-body-comparison-identical,
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+  background: #a8dab5;
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-in-comparison-range
+  > .mat-calendar-body-selected {
+  background: #46a35e;
+}
+.ngc .app-theme-spring .mat-calendar-body-selected {
+  background-color: rgba(var(--main-color));
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-calendar-body-disabled
+  > .mat-calendar-body-selected {
+  background-color: #08365266;
+}
+.ngc .app-theme-spring .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.ngc
+  .app-theme-spring
+  .cdk-keyboard-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.ngc
+  .app-theme-spring
+  .cdk-program-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: #0836524d;
+}
+@media (hover: hover) {
+  .ngc
+    .app-theme-spring
+    .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover
+    > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: #0836524d;
+  }
+}
+.ngc .app-theme-spring .mat-datepicker-content {
+  box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+  background-color: #fff;
+  color: #000000de;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-in-range:before {
+  background: rgba(255, 57, 25, 0.2);
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-comparison-identical,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-in-comparison-range:before {
+  background: rgba(249, 171, 0, 0.2);
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-comparison-bridge-start:before,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-end:before {
+  background: linear-gradient(
+    to right,
+    rgba(255, 57, 25, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-comparison-bridge-end:before,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-start:before {
+  background: linear-gradient(
+    to left,
+    rgba(255, 57, 25, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-in-range
+  > .mat-calendar-body-comparison-identical,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+  background: #a8dab5;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-in-comparison-range
+  > .mat-calendar-body-selected {
+  background: #46a35e;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-selected {
+  background-color: rgba(var(--main-color-button));
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-disabled
+  > .mat-calendar-body-selected {
+  background-color: rgba(var(--main-color-buttoncolor)) 66;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .cdk-keyboard-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-accent
+  .cdk-program-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: rgba(var(--main-color-buttoncolor)) 4d;
+}
+@media (hover: hover) {
+  .ngc
+    .app-theme-spring
+    .mat-datepicker-content.mat-accent
+    .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover
+    > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: rgba(var(--main-color-buttoncolor)) 4d;
+  }
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-in-range:before {
+  background: rgba(244, 67, 54, 0.2);
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-comparison-identical,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-in-comparison-range:before {
+  background: rgba(249, 171, 0, 0.2);
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-comparison-bridge-start:before,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-end:before {
+  background: linear-gradient(
+    to right,
+    rgba(244, 67, 54, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-comparison-bridge-end:before,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  [dir="rtl"]
+  .mat-calendar-body-comparison-bridge-start:before {
+  background: linear-gradient(
+    to left,
+    rgba(244, 67, 54, 0.2) 50%,
+    rgba(249, 171, 0, 0.2) 50%
+  );
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-in-range
+  > .mat-calendar-body-comparison-identical,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range:after {
+  background: #a8dab5;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-in-comparison-range
+  > .mat-calendar-body-selected {
+  background: #46a35e;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-selected {
+  background-color: #f44336;
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-disabled
+  > .mat-calendar-body-selected {
+  background-color: #f4433666;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .cdk-keyboard-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.ngc
+  .app-theme-spring
+  .mat-datepicker-content.mat-warn
+  .cdk-program-focused
+  .mat-calendar-body-active
+  > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: #f443364d;
+}
+@media (hover: hover) {
+  .ngc
+    .app-theme-spring
+    .mat-datepicker-content.mat-warn
+    .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover
+    > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: #f443364d;
+  }
+}
+.ngc .app-theme-spring .mat-datepicker-content-touch {
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
+    0 9px 46px 8px #0000001f;
+}
+.ngc .app-theme-spring .mat-datepicker-toggle-active {
+  color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-datepicker-toggle-active.mat-accent {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-datepicker-toggle-active.mat-warn {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-date-range-input-inner[disabled] {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-dialog-container {
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
+    0 9px 46px 8px #0000001f;
+  background: white;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-divider {
+  border-top-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-divider-vertical {
+  border-right-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-expansion-panel {
+  background: white;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-expansion-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-action-row {
+  border-top-color: #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-expansion-panel
+  .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled="true"]),
+.ngc
+  .app-theme-spring
+  .mat-expansion-panel
+  .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled="true"]),
+.ngc
+  .app-theme-spring
+  .mat-expansion-panel:not(.mat-expanded)
+  .mat-expansion-panel-header:hover:not([aria-disabled="true"]) {
+  background: rgba(0, 0, 0, 0.04);
+}
+@media (hover: none) {
+  .ngc
+    .app-theme-spring
+    .mat-expansion-panel:not(.mat-expanded):not([aria-disabled="true"])
+    .mat-expansion-panel-header:hover {
+    background: white;
+  }
+}
+.ngc .app-theme-spring .mat-expansion-panel-header-title {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-expansion-panel-header-description,
+.ngc .app-theme-spring .mat-expansion-indicator:after {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-expansion-panel-header[aria-disabled="true"] {
+  color: #00000042;
+}
+.ngc
+  .app-theme-spring
+  .mat-expansion-panel-header[aria-disabled="true"]
+  .mat-expansion-panel-header-title,
+.ngc
+  .app-theme-spring
+  .mat-expansion-panel-header[aria-disabled="true"]
+  .mat-expansion-panel-header-description {
+  color: inherit;
+}
+.ngc .app-theme-spring .mat-form-field-label,
+.ngc .app-theme-spring .mat-hint {
+  color: #0009;
+}
+.ngc .app-theme-spring .mat-form-field.mat-focused .mat-form-field-label {
+  color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused
+  .mat-form-field-label.mat-accent {
+  color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused
+  .mat-form-field-label.mat-warn {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-focused .mat-form-field-required-marker {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-form-field-ripple {
+  background-color: #000000de;
+}
+.ngc .app-theme-spring .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused
+  .mat-form-field-ripple.mat-accent {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused
+  .mat-form-field-ripple.mat-warn {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid)
+  .mat-form-field-infix:after {
+  color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-accent
+  .mat-form-field-infix:after {
+  color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-warn
+  .mat-form-field-infix:after {
+  color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-form-field-invalid
+  .mat-form-field-label,
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-form-field-invalid
+  .mat-form-field-label.mat-accent,
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-form-field-invalid
+  .mat-form-field-label
+  .mat-form-field-required-marker {
+  color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-form-field-invalid
+  .mat-form-field-ripple,
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-form-field-invalid
+  .mat-form-field-ripple.mat-accent {
+  background-color: #f44336;
+}
+.ngc .app-theme-spring .mat-error {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-form-field-appearance-legacy .mat-form-field-label,
+.ngc .app-theme-spring .mat-form-field-appearance-legacy .mat-hint {
+  color: #0000008a;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-legacy
+  .mat-form-field-underline {
+  background-color: #0000006b;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-legacy.mat-form-field-disabled
+  .mat-form-field-underline {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgba(0, 0, 0, 0.42) 33%,
+    transparent 0%
+  );
+  background-size: 4px 100%;
+  background-repeat: repeat-x;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-standard
+  .mat-form-field-underline {
+  background-color: #0000006b;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-standard.mat-form-field-disabled
+  .mat-form-field-underline {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgba(0, 0, 0, 0.42) 33%,
+    transparent 0%
+  );
+  background-size: 4px 100%;
+  background-repeat: repeat-x;
+}
+.ngc .app-theme-spring .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #0000000a;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-fill.mat-form-field-disabled
+  .mat-form-field-flex {
+  background-color: #00000005;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-fill
+  .mat-form-field-underline:before {
+  background-color: #0000006b;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-fill.mat-form-field-disabled
+  .mat-form-field-label {
+  color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-fill.mat-form-field-disabled
+  .mat-form-field-underline:before {
+  background-color: transparent;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline
+  .mat-form-field-outline {
+  color: #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline
+  .mat-form-field-outline-thick {
+  color: #000000de;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-focused.mat-accent
+  .mat-form-field-outline-thick {
+  color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-focused.mat-warn
+  .mat-form-field-outline-thick,
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid
+  .mat-form-field-outline-thick {
+  color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-form-field-disabled
+  .mat-form-field-label {
+  color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-outline.mat-form-field-disabled
+  .mat-form-field-outline {
+  color: #0000000f;
+}
+.ngc .app-theme-spring .mat-icon.mat-primary {
+  color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-icon.mat-accent {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-icon.mat-warn {
+  color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select
+  .mat-form-field-infix:after {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-input-element:disabled,
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select.mat-form-field-disabled
+  .mat-form-field-infix:after {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-input-element {
+  caret-color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-input-element::placeholder {
+  color: #0000006b;
+}
+.ngc .app-theme-spring .mat-input-element::-moz-placeholder {
+  color: #0000006b;
+}
+.ngc .app-theme-spring .mat-input-element::-webkit-input-placeholder {
+  color: #0000006b;
+}
+.ngc .app-theme-spring .mat-input-element:-ms-input-placeholder {
+  color: #0000006b;
+}
+.ngc .app-theme-spring .mat-form-field.mat-accent .mat-input-element {
+  caret-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-form-field.mat-warn .mat-input-element,
+.ngc .app-theme-spring .mat-form-field-invalid .mat-input-element {
+  caret-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-type-mat-native-select.mat-form-field-invalid
+  .mat-form-field-infix:after {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-list-base .mat-list-item,
+.ngc .app-theme-spring .mat-list-base .mat-list-option {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-list-base .mat-subheader {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-list-base .mat-list-item-disabled {
+  background-color: #eee;
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-list-option:hover,
+.ngc .app-theme-spring .mat-list-option:focus,
+.ngc .app-theme-spring .mat-nav-list .mat-list-item:hover,
+.ngc .app-theme-spring .mat-nav-list .mat-list-item:focus,
+.ngc .app-theme-spring .mat-action-list .mat-list-item:hover,
+.ngc .app-theme-spring .mat-action-list .mat-list-item:focus {
+  background: rgba(0, 0, 0, 0.04);
+}
+.ngc .app-theme-spring .mat-list-single-selected-option,
+.ngc .app-theme-spring .mat-list-single-selected-option:hover,
+.ngc .app-theme-spring .mat-list-single-selected-option:focus {
+  background: rgba(0, 0, 0, 0.12);
+}
+.ngc .app-theme-spring .mat-menu-panel {
+  background: white;
+}
+.ngc .app-theme-spring .mat-menu-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+}
+.ngc .app-theme-spring .mat-menu-item {
+  background: transparent;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-menu-item[disabled],
+.ngc .app-theme-spring .mat-menu-item[disabled] .mat-menu-submenu-icon,
+.ngc .app-theme-spring .mat-menu-item[disabled] .mat-icon-no-color {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-menu-item .mat-icon-no-color,
+.ngc .app-theme-spring .mat-menu-submenu-icon {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-menu-item:hover:not([disabled]),
+.ngc .app-theme-spring .mat-menu-item.cdk-program-focused:not([disabled]),
+.ngc .app-theme-spring .mat-menu-item.cdk-keyboard-focused:not([disabled]),
+.ngc .app-theme-spring .mat-menu-item-highlighted:not([disabled]) {
+  background: rgba(0, 0, 0, 0.04);
+}
+.ngc .app-theme-spring .mat-paginator {
+  background: white;
+}
+.ngc .app-theme-spring .mat-paginator,
+.ngc .app-theme-spring .mat-paginator-page-size .mat-select-trigger {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-paginator-decrement,
+.ngc .app-theme-spring .mat-paginator-increment {
+  border-top: 2px solid rgba(0, 0, 0, 0.54);
+  border-right: 2px solid rgba(0, 0, 0, 0.54);
+}
+.ngc .app-theme-spring .mat-paginator-first,
+.ngc .app-theme-spring .mat-paginator-last {
+  border-top: 2px solid rgba(0, 0, 0, 0.54);
+}
+.ngc .app-theme-spring .mat-icon-button[disabled] .mat-paginator-decrement,
+.ngc .app-theme-spring .mat-icon-button[disabled] .mat-paginator-increment,
+.ngc .app-theme-spring .mat-icon-button[disabled] .mat-paginator-first,
+.ngc .app-theme-spring .mat-icon-button[disabled] .mat-paginator-last {
+  border-color: #00000061;
+}
+.ngc .app-theme-spring .mat-progress-bar-background {
+  fill: #bec9d0;
+}
+.ngc .app-theme-spring .mat-progress-bar-buffer {
+  background-color: #bec9d0;
+}
+.ngc .app-theme-spring .mat-progress-bar-fill:after {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-progress-bar.mat-accent
+  .mat-progress-bar-background {
+  fill: #fbcac2;
+}
+.ngc .app-theme-spring .mat-progress-bar.mat-accent .mat-progress-bar-buffer {
+  background-color: #fbcac2;
+}
+.ngc
+  .app-theme-spring
+  .mat-progress-bar.mat-accent
+  .mat-progress-bar-fill:after {
+  /* background-color: rgba(var(--main-color-button), 1); */
+}
+.ngc .app-theme-spring .mat-progress-bar.mat-warn .mat-progress-bar-background {
+  fill: #f9ccc9;
+}
+.ngc .app-theme-spring .mat-progress-bar.mat-warn .mat-progress-bar-buffer {
+  background-color: #f9ccc9;
+}
+.ngc .app-theme-spring .mat-progress-bar.mat-warn .mat-progress-bar-fill:after {
+  background-color: #f44336;
+}
+.ngc .app-theme-spring .mat-progress-spinner circle,
+.ngc .app-theme-spring .mat-spinner circle {
+  stroke: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-progress-spinner.mat-accent circle,
+.ngc .app-theme-spring .mat-spinner.mat-accent circle {
+  stroke: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-progress-spinner.mat-warn circle,
+.ngc .app-theme-spring .mat-spinner.mat-warn circle {
+  stroke: #f44336;
+}
+.ngc .app-theme-spring .mat-radio-outer-circle {
+  border-color: #0000008a;
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-primary.mat-radio-checked
+  .mat-radio-outer-circle {
+  border-color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-radio-button.mat-primary .mat-radio-inner-circle,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-primary
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-primary.mat-radio-checked
+  .mat-radio-persistent-ripple,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-primary:active
+  .mat-radio-persistent-ripple {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-accent.mat-radio-checked
+  .mat-radio-outer-circle {
+  border-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-radio-button.mat-accent .mat-radio-inner-circle,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-accent
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-accent.mat-radio-checked
+  .mat-radio-persistent-ripple,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-accent:active
+  .mat-radio-persistent-ripple {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-warn.mat-radio-checked
+  .mat-radio-outer-circle {
+  border-color: #f44336;
+}
+.ngc .app-theme-spring .mat-radio-button.mat-warn .mat-radio-inner-circle,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-warn
+  .mat-radio-ripple
+  .mat-ripple-element:not(.mat-radio-persistent-ripple),
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-warn.mat-radio-checked
+  .mat-radio-persistent-ripple,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-warn:active
+  .mat-radio-persistent-ripple {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-radio-disabled.mat-radio-checked
+  .mat-radio-outer-circle,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-radio-disabled
+  .mat-radio-outer-circle {
+  border-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-radio-disabled
+  .mat-radio-ripple
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-radio-disabled
+  .mat-radio-inner-circle {
+  background-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-radio-button.mat-radio-disabled
+  .mat-radio-label-content {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-radio-button .mat-ripple-element {
+  background-color: #000;
+}
+.ngc .app-theme-spring .mat-select-value {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-select-placeholder {
+  color: #0000006b;
+}
+.ngc .app-theme-spring .mat-select-disabled .mat-select-value {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-select-arrow {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-select-panel {
+  background: white;
+}
+.ngc .app-theme-spring .mat-select-panel:not([class*="mat-elevation-z"]) {
+  box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-select-panel
+  .mat-option.mat-selected:not(.mat-option-multiple) {
+  background: rgba(0, 0, 0, 0.12);
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused.mat-primary
+  .mat-select-arrow {
+  color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field.mat-focused.mat-accent
+  .mat-select-arrow {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-form-field.mat-focused.mat-warn .mat-select-arrow,
+.ngc
+  .app-theme-spring
+  .mat-form-field
+  .mat-select.mat-select-invalid
+  .mat-select-arrow {
+  color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field
+  .mat-select.mat-select-disabled
+  .mat-select-arrow {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-drawer-container {
+  background-color: #fafafa;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-drawer {
+  background-color: #fff;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-drawer.mat-drawer-push {
+  background-color: #fff;
+}
+.ngc .app-theme-spring .mat-drawer:not(.mat-drawer-side) {
+  box-shadow: 0 8px 10px -5px #0003, 0 16px 24px 2px #00000024,
+    0 6px 30px 5px #0000001f;
+}
+.ngc .app-theme-spring .mat-drawer-side {
+  border-right: solid 1px rgba(0, 0, 0, 0.12);
+}
+.ngc .app-theme-spring .mat-drawer-side.mat-drawer-end,
+.ngc .app-theme-spring [dir="rtl"] .mat-drawer-side {
+  border-left: solid 1px rgba(0, 0, 0, 0.12);
+  border-right: none;
+}
+.ngc .app-theme-spring [dir="rtl"] .mat-drawer-side.mat-drawer-end {
+  border-left: none;
+  border-right: solid 1px rgba(0, 0, 0, 0.12);
+}
+.ngc .app-theme-spring .mat-drawer-backdrop.mat-drawer-shown {
+  background-color: #0009;
+}
+.ngc .app-theme-spring .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(var(--main-color-buttoncolor)) 8a;
+}
+.ngc .app-theme-spring .mat-slide-toggle.mat-checked .mat-ripple-element {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-primary.mat-checked
+  .mat-slide-toggle-thumb {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-primary.mat-checked
+  .mat-slide-toggle-bar {
+  background-color: #0836528a;
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-primary.mat-checked
+  .mat-ripple-element {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-warn.mat-checked
+  .mat-slide-toggle-thumb {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-warn.mat-checked
+  .mat-slide-toggle-bar {
+  background-color: #f443368a;
+}
+.ngc
+  .app-theme-spring
+  .mat-slide-toggle.mat-warn.mat-checked
+  .mat-ripple-element {
+  background-color: #f44336;
+}
+.ngc .app-theme-spring .mat-slide-toggle:not(.mat-checked) .mat-ripple-element {
+  background-color: #000;
+}
+.ngc .app-theme-spring .mat-slide-toggle-thumb {
+  box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+  background-color: #fafafa;
+}
+.ngc .app-theme-spring .mat-slide-toggle-bar {
+  background-color: #00000061;
+}
+.ngc .app-theme-spring .mat-slider-track-background {
+  background-color: #00000042;
+}
+.ngc .app-theme-spring .mat-slider.mat-primary .mat-slider-track-fill,
+.ngc .app-theme-spring .mat-slider.mat-primary .mat-slider-thumb,
+.ngc .app-theme-spring .mat-slider.mat-primary .mat-slider-thumb-label {
+  background-color: rgba(var(--main-color));
+}
+.ngc .app-theme-spring .mat-slider.mat-primary .mat-slider-thumb-label-text {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-slider.mat-primary .mat-slider-focus-ring {
+  background-color: #08365233;
+}
+.ngc .app-theme-spring .mat-slider.mat-accent .mat-slider-track-fill,
+.ngc .app-theme-spring .mat-slider.mat-accent .mat-slider-thumb,
+.ngc .app-theme-spring .mat-slider.mat-accent .mat-slider-thumb-label {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .mat-slider.mat-accent .mat-slider-thumb-label-text {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-slider.mat-accent .mat-slider-focus-ring {
+  background-color: rgba(var(--main-color-buttoncolor)) 33;
+}
+.ngc .app-theme-spring .mat-slider.mat-warn .mat-slider-track-fill,
+.ngc .app-theme-spring .mat-slider.mat-warn .mat-slider-thumb,
+.ngc .app-theme-spring .mat-slider.mat-warn .mat-slider-thumb-label {
+  background-color: #f44336;
+}
+.ngc .app-theme-spring .mat-slider.mat-warn .mat-slider-thumb-label-text {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-slider.mat-warn .mat-slider-focus-ring {
+  background-color: #f4433633;
+}
+.ngc .app-theme-spring .mat-slider:hover .mat-slider-track-background,
+.ngc .app-theme-spring .mat-slider.cdk-focused .mat-slider-track-background {
+  background-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-disabled
+  .mat-slider-track-background,
+.ngc .app-theme-spring .mat-slider.mat-slider-disabled .mat-slider-track-fill,
+.ngc .app-theme-spring .mat-slider.mat-slider-disabled .mat-slider-thumb,
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-disabled:hover
+  .mat-slider-track-background {
+  background-color: #00000042;
+}
+.ngc .app-theme-spring .mat-slider.mat-slider-min-value .mat-slider-focus-ring {
+  background-color: #0000001f;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing
+  .mat-slider-thumb,
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing
+  .mat-slider-thumb-label {
+  background-color: #000000de;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused
+  .mat-slider-thumb,
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused
+  .mat-slider-thumb-label {
+  background-color: #00000042;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing)
+  .mat-slider-thumb {
+  border-color: #00000042;
+  background-color: transparent;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover
+  .mat-slider-thumb,
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused
+  .mat-slider-thumb {
+  border-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover.mat-slider-disabled
+  .mat-slider-thumb,
+.ngc
+  .app-theme-spring
+  .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused.mat-slider-disabled
+  .mat-slider-thumb {
+  border-color: #00000042;
+}
+.ngc .app-theme-spring .mat-slider-has-ticks .mat-slider-wrapper:after {
+  border-color: #000000b3;
+}
+.ngc .app-theme-spring .mat-slider-horizontal .mat-slider-ticks {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7) 2px,
+    transparent 0,
+    transparent
+  );
+  background-image: -moz-repeating-linear-gradient(
+    0.0001deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7) 2px,
+    transparent 0,
+    transparent
+  );
+}
+.ngc .app-theme-spring .mat-slider-vertical .mat-slider-ticks {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7) 2px,
+    transparent 0,
+    transparent
+  );
+}
+.ngc .app-theme-spring .mat-step-header.cdk-keyboard-focused,
+.ngc .app-theme-spring .mat-step-header.cdk-program-focused,
+.ngc .app-theme-spring .mat-step-header:hover:not([aria-disabled]),
+.ngc .app-theme-spring .mat-step-header:hover[aria-disabled="false"] {
+  background-color: #0000000a;
+}
+.ngc .app-theme-spring .mat-step-header:hover[aria-disabled="true"] {
+  cursor: default;
+}
+@media (hover: none) {
+  .ngc .app-theme-spring .mat-step-header:hover {
+    background: none;
+  }
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-label,
+.ngc .app-theme-spring .mat-step-header .mat-step-optional {
+  color: #0000008a;
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-icon {
+  background-color: #0000008a;
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-icon-selected,
+.ngc .app-theme-spring .mat-step-header .mat-step-icon-state-done,
+.ngc .app-theme-spring .mat-step-header .mat-step-icon-state-edit {
+  background-color: rgba(var(--main-color));
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header.mat-accent .mat-step-icon {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header.mat-accent .mat-step-icon-selected,
+.ngc .app-theme-spring .mat-step-header.mat-accent .mat-step-icon-state-done,
+.ngc .app-theme-spring .mat-step-header.mat-accent .mat-step-icon-state-edit {
+  background-color: rgba(var(--main-color-button));
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header.mat-warn .mat-step-icon {
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header.mat-warn .mat-step-icon-selected,
+.ngc .app-theme-spring .mat-step-header.mat-warn .mat-step-icon-state-done,
+.ngc .app-theme-spring .mat-step-header.mat-warn .mat-step-icon-state-edit {
+  background-color: #f44336;
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-icon-state-error {
+  background-color: transparent;
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-label.mat-step-label-active {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-step-header .mat-step-label.mat-step-label-error {
+  color: #f44336;
+}
+.ngc .app-theme-spring .mat-stepper-horizontal,
+.ngc .app-theme-spring .mat-stepper-vertical {
+  background-color: #fff;
+}
+.ngc .app-theme-spring .mat-stepper-vertical-line:before {
+  border-left-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-horizontal-stepper-header:before,
+.ngc .app-theme-spring .mat-horizontal-stepper-header:after,
+.ngc .app-theme-spring .mat-stepper-horizontal-line {
+  border-top-color: #0000001f;
+}
+.ngc .app-theme-spring .mat-sort-header-arrow {
+  color: #757575;
+}
+.ngc .app-theme-spring .mat-tab-nav-bar,
+.ngc .app-theme-spring .mat-tab-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.ngc .app-theme-spring .mat-tab-group-inverted-header .mat-tab-nav-bar,
+.ngc .app-theme-spring .mat-tab-group-inverted-header .mat-tab-header {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: none;
+}
+.ngc .app-theme-spring .mat-tab-label,
+.ngc .app-theme-spring .mat-tab-link {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-tab-label.mat-tab-disabled,
+.ngc .app-theme-spring .mat-tab-link.mat-tab-disabled {
+  color: #00000061;
+}
+.ngc .app-theme-spring .mat-tab-header-pagination-chevron {
+  border-color: #000000de;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron {
+  border-color: #00000061;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group[class*="mat-background-"]
+  > .mat-tab-header,
+.ngc .app-theme-spring .mat-tab-nav-bar[class*="mat-background-"] {
+  border-bottom: none;
+  border-top: none;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #c5cae94d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-primary .mat-ink-bar,
+.ngc .app-theme-spring .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary.mat-background-primary
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-primary.mat-background-primary
+  > .mat-tab-link-container
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary.mat-background-primary
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-primary.mat-background-primary
+  > .mat-tab-link-container
+  .mat-ink-bar {
+  background-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #ffcdd24d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-accent .mat-ink-bar,
+.ngc .app-theme-spring .mat-tab-nav-bar.mat-accent .mat-ink-bar {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent.mat-background-accent
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-accent.mat-background-accent
+  > .mat-tab-link-container
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent.mat-background-accent
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-accent.mat-background-accent
+  > .mat-tab-link-container
+  .mat-ink-bar {
+  background-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #ffcdd24d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-warn .mat-ink-bar,
+.ngc .app-theme-spring .mat-tab-nav-bar.mat-warn .mat-ink-bar {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn.mat-background-warn
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-warn.mat-background-warn
+  > .mat-tab-link-container
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn.mat-background-warn
+  > .mat-tab-header
+  .mat-ink-bar,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-warn.mat-background-warn
+  > .mat-tab-link-container
+  .mat-ink-bar {
+  background-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #c5cae94d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-background-primary > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header-pagination,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header-pagination {
+  background-color: rgba(var(--main-color));
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-link-container
+  .mat-tab-link,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-link-container
+  .mat-tab-link {
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled {
+  color: #fff6;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-focus-indicator:before {
+  border-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron {
+  border-color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-primary
+  > .mat-tab-header-pagination
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-primary
+  > .mat-tab-header-pagination
+  .mat-ripple-element {
+  background-color: #fff;
+  opacity: 0.12;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #ffcdd24d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-background-accent > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header-pagination,
+.ngc .app-theme-spring .mat-tab-nav-bar.mat-background-accent > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header-pagination {
+  background-color: rgba(var(--main-color-button));
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-link-container
+  .mat-tab-link,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-link-container
+  .mat-tab-link {
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled {
+  color: #fff6;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-focus-indicator:before {
+  border-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron {
+  border-color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-accent
+  > .mat-tab-header-pagination
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-accent
+  > .mat-tab-header-pagination
+  .mat-ripple-element {
+  background-color: #fff;
+  opacity: 0.12;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: #ffcdd24d;
+}
+.ngc .app-theme-spring .mat-tab-group.mat-background-warn > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header-pagination,
+.ngc .app-theme-spring .mat-tab-nav-bar.mat-background-warn > .mat-tab-header,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-link-container,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header-pagination {
+  background-color: #f44336;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-link-container
+  .mat-tab-link,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-label,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-link-container
+  .mat-tab-link {
+  color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-label.mat-tab-disabled,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-link-container
+  .mat-tab-link.mat-tab-disabled {
+  color: #fff6;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header-pagination
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-link-container
+  .mat-focus-indicator:before,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-focus-indicator:before {
+  border-color: #fff;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header-pagination-disabled
+  .mat-tab-header-pagination-chevron {
+  border-color: #fff;
+  opacity: 0.4;
+}
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-group.mat-background-warn
+  > .mat-tab-header-pagination
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-link-container
+  .mat-ripple-element,
+.ngc
+  .app-theme-spring
+  .mat-tab-nav-bar.mat-background-warn
+  > .mat-tab-header-pagination
+  .mat-ripple-element {
+  background-color: #fff;
+  opacity: 0.12;
+}
+.ngc .app-theme-spring .mat-toolbar {
+  background: whitesmoke;
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-toolbar.mat-primary {
+  background: rgba(var(--main-color));
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-toolbar.mat-accent {
+  background: rgba(var(--main-color-button));
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-toolbar.mat-warn {
+  background: #f44336;
+  color: #fff;
+}
+.ngc .app-theme-spring .mat-toolbar .mat-form-field-underline,
+.ngc .app-theme-spring .mat-toolbar .mat-form-field-ripple,
+.ngc .app-theme-spring .mat-toolbar .mat-focused .mat-form-field-ripple {
+  background-color: currentColor;
+}
+.ngc .app-theme-spring .mat-toolbar .mat-form-field-label,
+.ngc .app-theme-spring .mat-toolbar .mat-focused .mat-form-field-label,
+.ngc .app-theme-spring .mat-toolbar .mat-select-value,
+.ngc .app-theme-spring .mat-toolbar .mat-select-arrow,
+.ngc
+  .app-theme-spring
+  .mat-toolbar
+  .mat-form-field.mat-focused
+  .mat-select-arrow {
+  color: inherit;
+}
+.ngc .app-theme-spring .mat-toolbar .mat-input-element {
+  caret-color: currentColor;
+}
+.ngc .app-theme-spring .mat-tooltip {
+  background: rgba(97, 97, 97, 0.9);
+}
+.ngc .app-theme-spring .mat-tree {
+  background: white;
+}
+.ngc .app-theme-spring .mat-tree-node,
+.ngc .app-theme-spring .mat-nested-tree-node {
+  color: #000000de;
+}
+.ngc .app-theme-spring .mat-snack-bar-container {
+  color: #ffffffb3;
+  background: #323232;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+.ngc .app-theme-spring .mat-simple-snackbar-action {
+  color: rgba(var(--main-color-button));
+}
+.ngc .app-theme-spring .notification-circle {
+  background-color: rgba(var(--main-color-buttoncolor)) !important;
+}
+.ngc .app-theme-spring .topbar-items-container > div,
+.ngc .app-theme-spring .mat-toolbar,
+.ngc .app-theme-spring .mat-toolbar .mat-icon,
+.ngc .app-theme-spring .mat-raised-button.mat-primary > span,
+.ngc .app-theme-spring .mat-fab mat-icon {
+  color: #fff;
+}
+.ngc .app-theme-spring .sidenav-container,
+.ngc .app-theme-spring .sub-header {
+  background: #f1f1f1;
+}
+.ngc .app-theme-spring .fl-card-fixed,
+.ngc .app-theme-spring .fl-card-fixed-md,
+.ngc .app-theme-spring .fl-card-fixed-sm {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.ngc .app-theme-spring mat-icon {
+  color: gray;
+}
+.ngc .app-theme-spring button[disabled] .mat-icon {
+  color: #d3d3d3;
+}
+.ngc .app-theme-spring .mat-button-base {
+  text-transform: uppercase;
+}
+.ngc .app-theme-spring .active-link,
+.ngc .app-theme-spring .active-link mat-icon {
+  color: rgba(var(--main-color)) !important;
+}
+.ngc .app-theme-spring .object-card-content {
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  word-break: break-all;
+  color: #616161;
+}
+.ngc .app-theme-spring .fl-tag {
+  background-color: #878787;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+.ngc
+  .app-theme-spring
+  .mat-form-field-appearance-legacy
+  .mat-form-field-underline {
+  background-color: #0000001f;
+}
+.ngc .app-loading {
+  border-top: 16px solid rgba(var(--main-color)) !important;
+  border-right: 16px solid rgba(var(--main-color)) !important;
+}
+.ngc .app-theme-spring .status-line {
+  background-color: rgba(var(--main-color)) !important;
+  /* hidding menu items */
+}
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(2),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(3),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(16),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(17),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(18),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(19),
+.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(20),
+.ngc app-menu-item-container:nth-child(4) {
+  /* Cloud -> Cluster */
+  /* Cloud -> Cluster templates */
+  /* Cloud -> Object store */
+  /* Cloud -> Heat stacks */
+  /* Cloud -> Heat resource types */
+  /* Cloud -> Heat template versions */
+  /* Cloud -> Load balancers */
+  /* Domains */
+#  display: none;
+  /* hidding other links for non accessable pages */
+}
+.ngc app-domains-dashboard-services-rows {
+  display: none;
+}
