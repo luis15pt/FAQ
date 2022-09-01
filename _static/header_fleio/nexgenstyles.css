@@ -3114,26 +3114,3 @@ html {
   background-color: rgba(var(--main-color)) !important;
 
 }
-  /* hidding menu items */
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(2),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(3),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(16),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(17),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(18),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(19),
-.ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(20),
-.ngc app-menu-item-container:nth-child(4) {
-  /* Cloud -> Cluster */
-  /* Cloud -> Cluster templates */
-  /* Cloud -> Object store */
-  /* Cloud -> Heat stacks */
-  /* Cloud -> Heat resource types */
-  /* Cloud -> Heat template versions */
-  /* Cloud -> Load balancers */
-  /* Domains */
- # display: none;
-  /* hidding other links for non accessable pages */
-}
-.ngc app-domains-dashboard-services-rows {
-  display: none;
-}
