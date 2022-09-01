@@ -3112,8 +3112,9 @@ html {
 }
 .ngc .app-theme-spring .status-line {
   background-color: rgba(var(--main-color)) !important;
-  /* hidding menu items */
+
 }
+  /* hidding menu items */
 .ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(2),
 .ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(3),
 .ngc app-menu-item-container:nth-child(3) > div > app-menu-item:nth-child(16),
@@ -3130,8 +3131,8 @@ html {
   /* Cloud -> Heat template versions */
   /* Cloud -> Load balancers */
   /* Domains */
-  display: none;
-
+ # display: none;
+  /* hidding other links for non accessable pages */
 }
 .ngc app-domains-dashboard-services-rows {
   display: none;
