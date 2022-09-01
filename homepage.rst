@@ -5,7 +5,8 @@ Homepage / Dashboard
 This is the homepage when accessing HyperStack from the end-user panel.
 
 .. image:: /_static/images/enduser/end_user_dashboard.png
-
+.. image:: /_static/images/discord.png
+.. image:: /_static/images/faq.png
 
 Main Menu Area
 ==============

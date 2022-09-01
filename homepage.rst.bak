@@ -1,6 +1,6 @@
 ====================
 Homepage / Dashboard
-====================
+=======================
 
 This is the homepage when accessing HyperStack from the end-user panel.
 
