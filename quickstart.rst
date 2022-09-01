@@ -55,3 +55,8 @@ Once payment has been confirmed the invoice will be updated to paid status
 Funds will show up in the **HOME** menu after payment has been completed.
 
 .. image:: /_static/images/credit.png
+
+work in progress
+
+.. image:: /_static/images/discord.png
+.. image:: /_static/images/faq.png

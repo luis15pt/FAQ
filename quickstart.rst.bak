@@ -36,7 +36,7 @@ After filling out all the required information you will be sent to the **HOME** 
 Billing setup
 =============
 
-The next step would be to setup billing, use the **ADD CREDIT** in the **HOME** menu.
+Now we need to setup billing, use the **ADD CREDIT** in the **HOME** menu.
 
 .. image:: /_static/images/accountcredit.png
 
@@ -44,12 +44,14 @@ Fill in how much credit you would like to add to your account, this will generat
 
 .. image:: /_static/images/accountcreditadd.png
 
-Here you can see your new generated invoice, you can select the following payment methods, Paypal or Stripe. We also accept bank transfers, for this create a new ticket. You may also download your invoice that was generated automatically. 
+Here you can see your new generated invoice, you can select the following payment methods, Paypal or Stripe. You may also download your invoice that was generated automatically. 
 
 .. image:: /_static/images/accountinvoice.png
 
-Once payment has been confirmed the invoice will be updated to paid status and the funds will show up in the **HOME** menu.
+Once payment has been confirmed the invoice will be updated to paid status 
 
 .. image:: /_static/images/accountinvoicepaid.png
+
+Funds will show up in the **HOME** menu after payment has been completed.
 
 .. image:: /_static/images/credit.png
