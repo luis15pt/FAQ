@@ -239,10 +239,10 @@ You can view the Status of the GPU´s with the following command:
 Testing Nvidia NCCL
 *******************************
 
-These tests check both the performance and the correctness of NCCL operations. 'https://github.com/nvidia/nccl-tests'
+These tests check both the performance and the correctness of NCCL operations.
+'https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/index.html'
 
 NCCL (pronounced "Nickel") is a stand-alone library of standard communication routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast, reduce-scatter, as well as any send/receive based communication pattern. It has been optimized to achieve high bandwidth on platforms using PCIe, NVLink, NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets. NCCL supports an arbitrary number of GPUs installed in a single node or across multiple nodes, and can be used in either single- or multi-process (e.g., MPI) applications.
-'https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/index.html'
 
 
 .. code-block:: bash
@@ -255,3 +255,5 @@ git clone https://github.com/NVIDIA/nccl-tests.git
 cd nccl-tests
 make
 ./build/all_reduce_perf -b 8 -e 128M -f 2 -g 10
+
+more info can be found here: 'https://github.com/nvidia/nccl-tests'
