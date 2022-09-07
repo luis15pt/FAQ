@@ -245,15 +245,15 @@ These tests check both the performance and the correctness of NCCL operations.
 NCCL (pronounced "Nickel") is a stand-alone library of standard communication routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast, reduce-scatter, as well as any send/receive based communication pattern. It has been optimized to achieve high bandwidth on platforms using PCIe, NVLink, NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets. NCCL supports an arbitrary number of GPUs installed in a single node or across multiple nodes, and can be used in either single- or multi-process (e.g., MPI) applications.
 
 
-.. code-block:: bash
+.. code-block:: console
 
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb
-sudo dpkg -i cuda-keyring_1.0-1_all.deb
-sudo apt-get update
-apt-get -y install libcudnn8 libcudnn8-dev libnccl2 libnccl-dev cuda-toolkit-11-7 cuda-11-7 build-essential devscripts debhelper fakeroot linux-headers-$(uname -r)
-git clone https://github.com/NVIDIA/nccl-tests.git
-cd nccl-tests
-make
-./build/all_reduce_perf -b 8 -e 128M -f 2 -g 10
+ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb
+ sudo dpkg -i cuda-keyring_1.0-1_all.deb
+ sudo apt-get update
+ apt-get -y install libcudnn8 libcudnn8-dev libnccl2 libnccl-dev cuda-toolkit-11-7 cuda-11-7 build-essential devscripts debhelper fakeroot linux-headers-$(uname -r)
+ git clone https://github.com/NVIDIA/nccl-tests.git
+ cd nccl-tests
+ make
+ ./build/all_reduce_perf -b 8 -e 128M -f 2 -g 10
 
-more info can be found here: 'https://github.com/nvidia/nccl-tests'
+More info can be found here: 'https://github.com/nvidia/nccl-tests'
