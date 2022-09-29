@@ -250,7 +250,7 @@ NCCL (pronounced "Nickel") is a stand-alone library of standard communication ro
  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.0-1_all.deb
  sudo dpkg -i cuda-keyring_1.0-1_all.deb
  sudo apt-get update
- apt-get -y install libcudnn8 libcudnn8-dev libnccl2 libnccl-dev cuda-toolkit-11-7 cuda-11-7 build-essential devscripts debhelper fakeroot linux-headers-$(uname -r)
+ sudo apt-get -y install libcudnn8 libcudnn8-dev libnccl2 libnccl-dev cuda-toolkit-11-7 cuda-11-7 build-essential devscripts debhelper fakeroot linux-headers-$(uname -r)
  git clone https://github.com/NVIDIA/nccl-tests.git
  cd nccl-tests
  make

@@ -257,3 +257,31 @@ NCCL (pronounced "Nickel") is a stand-alone library of standard communication ro
  ./build/all_reduce_perf -b 8 -e 128M -f 2 -g 10
 
 More info can be found here: 'https://github.com/nvidia/nccl-tests'
+
+
+*******************************
+Stress Testing GPU
+*******************************
+
+Burn in tests that runs for 60 seconds
+
+.. code-block:: console
+
+ #install drivers if you have not done so
+ sudo apt-get update 
+ sudo apt install nvidia-driver-515-server
+ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+ sudo apt-get update
+ sudo apt-get install -y nvidia-container-toolkit
+ sudo reboot
+ #need to reboot for drivers to load
+ sudo apt install -y docker.io
+ git clone https://github.com/wilicc/gpu-burn
+ cd gpu-burn
+ sudo docker build -t gpu_burn .
+ sudo docker run --rm --gpus all gpu_burn
+
+
+More info can be found here: 'https://github.com/wilicc/gpu-burn'
